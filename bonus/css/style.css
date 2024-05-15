@@ -47,11 +47,12 @@ img {
 
 /* LAYOUT */
 .container {
-    max-width: 1140px;
+    max-width: 1480px;
     width: 100%;
     margin: 0 auto;
     padding: 0 20px;
 }
+/* aggiunta width in % */
 
 .row {
     display: flex;
@@ -62,6 +63,7 @@ img {
     padding-left: 1rem;
     padding-right: 1rem;
 }
+/* dato 50% di width per ogni col  */
 
 /* TEXT */
 .text-center {
@@ -116,6 +118,7 @@ img {
 .why-us, .col-left, .why-us, .col-right {
     width: 100%;
 }
+/* dato regola generale del 100% della pagina ad entrambe le col in modo tale da occupare tutto il view */
 
 
 
@@ -132,12 +135,11 @@ img {
  @media screen and (max-width: 768px) {
 
     .container {
+      
         width:100%;
         margin: 0 auto;
         padding: 0 20px;
     }
-
-   
 
     .col {
         padding-left: 1rem;
@@ -153,7 +155,7 @@ img {
  @media screen and (max-width: 480px) {
 
     .container {
-        max-width: 480px;
+        
         width:100%;
         margin: 0 auto;
         text-align: center;
@@ -163,20 +165,19 @@ img {
 
     .row {
         display: block;
-        
+        /* tolto il display flex ed inserito il block per mandare a capo gli article */
     }
-
+    
+/* prima sezione */
     .lessons .col {
         width: 100%;
     }
+    /* dato il 100% di lughezza per prendere  tutto il view con ogni singolo article e text */
 
+/* seconda sezione */
     .steps .col {
         width: 100%;
-       
+/* dato il 100% di lughezza per prendere  tutto il view con ogni singolo article e text */
     }
-
-    
-
-
 
  }
