@@ -128,7 +128,7 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-/* MODE TABLET */
+/* MODE TABLET 768p */
  @media screen and (max-width: 768px) {
 
     .container {
@@ -148,7 +148,7 @@ img {
 
  }
 
- /* MODE MOBILE */
+ /* MODE MOBILE 480p */
 
  @media screen and (max-width: 480px) {
 
